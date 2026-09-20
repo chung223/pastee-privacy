@@ -2,6 +2,9 @@
 title: 隱私政策
 ---
 
+<!-- 這是原始檔。改完請跑 ./scripts/publish_privacy.sh 推到公開版：
+     https://chung223.github.io/pastee-privacy/ （上架表單填的就是那個網址） -->
+
 # 貼貼 隱私政策
 
 最後更新：2026-09-20
@@ -137,4 +140,4 @@ title: 隱私政策
 
 ---
 
-*本文件描述的行為可在原始碼中驗證：對外連線只出現在 `LinkMetadataFetcher`（連結預覽）、`CloudSyncService`（iCloud）與 `PeerShareService`（區網）三處。*
+*貼貼的程式中只有三處會對外連線：連結預覽、iCloud 同步，以及區網 Peer Share。除此之外沒有任何網路請求。*
